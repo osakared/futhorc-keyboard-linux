@@ -1,0 +1,69 @@
+//
+// $XdotOrg: xc/programs/xkbcomp/symbols/pc/us,v 1.2 2004/04/23 19:54:56 eich Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/pc/us,v 1.6 2003/10/31 14:32:05 pascal Exp $
+
+default
+partial hidden alphanumeric_keys modifier_keys 
+xkb_symbols "basic" {
+
+    name[Group1]= "OE/FUTHORC";
+
+    include "pc(common)"
+
+    // Alphanumeric section
+    key <TLDE> {	[     grave,	asciitilde	]	};
+    key <AE01> {	[	  1,	exclam 		]	};
+    key <AE02> {	[	  2,	at		]	};
+    key <AE03> {	[	  3,	numbersign	]	};
+    key <AE04> {	[	  4,	dollar		]	};
+    key <AE05> {	[	  5,	percent		]	};
+    key <AE06> {	[	  6,	asciicircum	]	};
+    key <AE07> {	[	  7,	ampersand	]	};
+    key <AE08> {	[	  8,	asterisk	]	};
+    key <AE09> {	[	  9,	parenleft	]	};
+    key <AE10> {	[	  0,	parenright	]	};
+    key <AE11> {	[     minus,	U200D	]	};
+    key <AE12> {	[     equal,	U16ED		]	};
+
+    key <AD01> {	[	  U16E2,	NoSymbol 		]	};
+    key <AD02> {	[	  U16B9,	NoSymbol		]	};
+    key <AD03> {	[	  U16D6,	U16E0		]	};
+    key <AD04> {	[	  U16B1,	NoSymbol		]	};
+    key <AD05> {	[	  U16CF,	U16A6		]	};
+    key <AD06> {	[	  U16A3,	NoSymbol		]	};
+    key <AD07> {	[	  U16A2,	NoSymbol		]	};
+    key <AD08> {	[	  U16C1,	U16E1		]	};
+    key <AD09> {	[	  U16A9,	U16DF		]	};
+    key <AD10> {	[	  U16C8,	NoSymbol		]	};
+    key <AD11> {	[ bracketleft,	braceleft	]	};
+    key <AD12> {	[ bracketright,	braceright	]	};
+
+    key <AC01> {	[	  U16AA,	U16AB 		]	};
+    key <AC02> {	[	  U16CB,	NoSymbol		]	};
+    key <AC03> {	[	  U16DE,	NoSymbol		]	};
+    key <AC04> {	[	  U16A0,	NoSymbol		]	};
+    key <AC05> {	[	  U16B7,	U16B8		]	};
+    key <AC06> {	[	  U16BB,	U16C7		]	};
+    key <AC07> {	[	  U16C4,	NoSymbol		]	};
+    key <AC08> {	[	  U16E3,	U16E4		]	};
+    key <AC09> {	[	  U16DA,	NoSymbol		]	};
+    key <AC10> {	[ U16ED,	U16EC		]	};
+    key <AC11> {	[ apostrophe,	quotedbl	]	};
+
+    key <AB01> {	[	  U16E5,	NoSymbol 		]	};
+    key <AB02> {	[	  U16C9,	NoSymbol		]	};
+    key <AB03> {	[	  U16B3,	NoSymbol		]	};
+    key <AB04> {	[	  NoSymbol,	NoSymbol		]	};
+    key <AB05> {	[	  U16D2,	NoSymbol		]	};
+    key <AB06> {	[	  U16BE,	U16DD		]	};
+    key <AB07> {	[	  U16D7,	NoSymbol		]	};
+    key <AB08> {	[     comma,	less		]	};
+    key <AB09> {	[    U16EB,	greater		]	};
+    key <AB10> {	[     slash,	question	]	};
+
+    key <BKSL> {	[ backslash,         bar	]	};
+    key <SPCE> {	[ U200D ] };
+    // End alphanumeric section
+};
+
+
